@@ -1,0 +1,6 @@
+@petryankin_daniil_kt_31_21_HostAddress = http://localhost:5026
+
+GET {{petryankin_daniil_kt_31_21_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
