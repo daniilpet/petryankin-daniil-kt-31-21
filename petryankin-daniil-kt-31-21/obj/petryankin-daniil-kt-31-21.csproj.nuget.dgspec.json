@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Danii\\source\\repos\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj": {}
+    "C:\\Users\\Danii\\source\\repos\\daniilpet\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Danii\\source\\repos\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj": {
+    "C:\\Users\\Danii\\source\\repos\\daniilpet\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Danii\\source\\repos\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj",
+        "projectUniqueName": "C:\\Users\\Danii\\source\\repos\\daniilpet\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj",
         "projectName": "petryankin-daniil-kt-31-21",
-        "projectPath": "C:\\Users\\Danii\\source\\repos\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj",
+        "projectPath": "C:\\Users\\Danii\\source\\repos\\daniilpet\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj",
         "packagesPath": "C:\\Users\\Danii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Danii\\source\\repos\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\obj\\",
+        "outputPath": "C:\\Users\\Danii\\source\\repos\\daniilpet\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Danii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.12, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
