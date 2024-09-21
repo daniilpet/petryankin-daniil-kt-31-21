@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("petryankin-daniil-kt-31-21")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f903c7f1e67588d6dc3b23171d5c1b0ed11834dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d62a9baf04d823dfd2d3e6d5c5bac1c366a8985d")]
 [assembly: System.Reflection.AssemblyProductAttribute("petryankin-daniil-kt-31-21")]
 [assembly: System.Reflection.AssemblyTitleAttribute("petryankin-daniil-kt-31-21")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
