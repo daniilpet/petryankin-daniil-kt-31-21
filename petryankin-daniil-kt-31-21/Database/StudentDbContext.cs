@@ -8,12 +8,18 @@ namespace petryankin_daniil_kt_31_21
     {
         public DbSet<Student> Students { get; set; }
         public DbSet<Group> Groups { get; set; }
+        public DbSet<Discipline> Disciplines { get; set; }
+        public DbSet<Pass> Passes { get; set; }
+        public DbSet<Grade> Grades { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Применение конфигураций
             modelBuilder.ApplyConfiguration(new StudentConfiguration());
             modelBuilder.ApplyConfiguration(new GroupConfiguration());
+            modelBuilder.ApplyConfiguration(new DisciplineConfiguration());
+            modelBuilder.ApplyConfiguration(new PassConfiguration());
+            modelBuilder.ApplyConfiguration(new GradeConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

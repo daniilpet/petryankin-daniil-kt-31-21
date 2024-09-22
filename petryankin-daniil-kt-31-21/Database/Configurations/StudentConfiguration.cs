@@ -39,6 +39,11 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasComment("Отчество студента")
                    .HasColumnType($"{ColumnType.String}(50)");
 
+            builder.Property(s => s.IsDeleted)
+                   .HasColumnName("c_is_deleted")
+                   .HasComment("Признак удаления")
+                   .HasColumnType(ColumnType.Bool);
+
             builder.Property(s => s.GroupId)
                    .HasColumnName("f_group_id")
                    .HasComment("Группа студента")

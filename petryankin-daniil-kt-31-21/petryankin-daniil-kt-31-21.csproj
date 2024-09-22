@@ -25,6 +25,7 @@
     <Folder Include="Database\Configurations\" />
     <Folder Include="Filters\StudentFilters\" />
     <Folder Include="Interfaces\StudentInterfaces\" />
+    <Folder Include="Interfaces\DisciplineInterfaces\" />
     <Folder Include="Migrations\" />
     <Folder Include="Models\" />
     <Folder Include="Database\Helpers\" />

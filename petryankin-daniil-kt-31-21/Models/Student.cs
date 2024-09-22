@@ -19,6 +19,9 @@ namespace petryankin_daniil_kt_31_21.Models
         // »дентификатор группы, к которой относитс€ студент
         public int GroupId { get; set; }
 
+        // явл€етс€ ли удалЄнным (отчисленным)
+        public bool IsDeleted { get; set; }
+
         // —в€зь с объектом группы
         public Group? Group { get; set; }
     }
