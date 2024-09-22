@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\studentintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\studentintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\grouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\grouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\interfaces\\studentinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\interfaces\\studentinterfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:56:39.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\Usings.cs",
+              "RelativeDocumentMoniker": "petryankin_daniil_kt_31_21.Tests\\Usings.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\Usings.cs",
+              "RelativeToolTip": "petryankin_daniil_kt_31_21.Tests\\Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:55:09.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentIntegrationTest.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
+              "RelativeDocumentMoniker": "petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
+              "RelativeToolTip": "petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:55:00.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GroupTests.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\GroupTests.cs",
+              "RelativeDocumentMoniker": "petryankin_daniil_kt_31_21.Tests\\GroupTests.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\GroupTests.cs",
+              "RelativeToolTip": "petryankin_daniil_kt_31_21.Tests\\GroupTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:54:45.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Program.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Program.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Program.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:17:33.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Interfaces\\StudentInterfaces\\IStudentService.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Interfaces\\StudentInterfaces\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Interfaces\\StudentInterfaces\\IStudentService.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Interfaces\\StudentInterfaces\\IStudentService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:16:49.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Middlewares\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T13:16:35.474Z",
+              "EditorCaption": ""
             }
           ]
         }

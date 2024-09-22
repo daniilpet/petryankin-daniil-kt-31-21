@@ -29,6 +29,7 @@
     <Folder Include="Models\" />
     <Folder Include="Database\Helpers\" />
     <Folder Include="ServiceExtensions\" />
+    <Folder Include="Middlewares\" />
   </ItemGroup>
 
 </Project>
