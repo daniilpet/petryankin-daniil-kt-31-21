@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using petryankin_daniil_kt_31_21.Database.Helpers;
 using petryankin_daniil_kt_31_21.Models;
 
 namespace petryankin_daniil_kt_31_21.Database.Configurations
@@ -13,25 +14,40 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.ToTable(TableName);
 
             builder.HasKey(s => s.StudentId)
-                    .HasName($"pk_{TableName}_student_id");
+                   .HasName($"pk_{TableName}_student_id");
 
-            // Свойства
+            builder.Property(s => s.StudentId)
+                   .HasColumnName("student_id")
+                   .HasComment("Идентификатор записи студента")
+                   .HasColumnType(ColumnType.Int)
+                   .IsRequired();
+
             builder.Property(s => s.FirstName)
-                   .IsRequired()
-                   .HasMaxLength(50);
+                   .HasColumnName("c_student_first_name")
+                   .HasComment("Имя студента")
+                   .HasColumnType($"{ColumnType.String}(50)")
+                   .IsRequired();
 
             builder.Property(s => s.LastName)
-                   .IsRequired()
-                   .HasMaxLength(50);
+                   .HasColumnName("c_student_last_name")
+                   .HasComment("Фамилия студента")
+                   .HasColumnType($"{ColumnType.String}(50)")
+                   .IsRequired();
 
             builder.Property(s => s.MiddleName)
-                   .HasMaxLength(50);
+                   .HasColumnName("middle_name")
+                   .HasComment("Отчество студента")
+                   .HasColumnType($"{ColumnType.String}(50)");
 
-            // Связь с группой
-            builder.HasOne(s => s.Group)
-                   .WithMany(g => g.Students)
-                   .HasForeignKey(s => s.GroupId)
-                   .OnDelete(DeleteBehavior.Cascade);
+            builder.Property(s => s.GroupId)
+                   .HasColumnName("group_id")
+                   .HasComment("Группа студента")
+                   .HasColumnType(ColumnType.Int);
+
+            // Индексы
+            builder.ToTable(TableName)
+                    .HasIndex(s => s.GroupId)
+                    .HasDatabaseName($"idx_{TableName}_fk_f_group_id");
         }
     }
 }

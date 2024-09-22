@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\database\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\database\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\database\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\database\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\database\\helpers\\columntype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\models\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\migrations\\20240921095119_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\migrations\\20240921095119_rename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D485EE-7DB2-427D-A4EB-BC06C4BA1FD8}|petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj|solutionrelative:petryankin-daniil-kt-31-21\\database\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,32 +63,130 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
-              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
-              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
-              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
+              "Title": "20240922120635_UpdateAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Migrations\\20240922120635_UpdateAttributes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:46:49.862Z",
+              "WhenOpened": "2024-09-22T12:06:35.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240921094424_init.cs",
-              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
-              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
-              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
-              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ColumnType.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Helpers\\ColumnType.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Database\\Helpers\\ColumnType.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Helpers\\ColumnType.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Database\\Helpers\\ColumnType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T09:46:44.446Z",
+              "WhenOpened": "2024-09-22T10:34:03.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "StudentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Configurations\\StudentConfiguration.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Database\\Configurations\\StudentConfiguration.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Configurations\\StudentConfiguration.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Database\\Configurations\\StudentConfiguration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA8wDEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:56:38.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Student.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Models\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:54:42.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Models\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:54:39.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\appsettings.Development.json",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\appsettings.Development.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T09:54:19.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240921095119_rename.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921095119_rename.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Migrations\\20240921095119_rename.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921095119_rename.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Migrations\\20240921095119_rename.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:51:19.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GroupConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Configurations\\GroupConfiguration.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Database\\Configurations\\GroupConfiguration.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\Configurations\\GroupConfiguration.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Database\\Configurations\\GroupConfiguration.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:50:10.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Database\\StudentDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:46:49.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240921094424_init.cs",
+              "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
+              "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
+              "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
+              "RelativeToolTip": "petryankin-daniil-kt-31-21\\Migrations\\20240921094424_init.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:46:44.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\Program.cs",
               "RelativeDocumentMoniker": "petryankin-daniil-kt-31-21\\Program.cs",
@@ -64,8 +194,7 @@
               "RelativeToolTip": "petryankin-daniil-kt-31-21\\Program.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T15:50:34.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T15:50:34.75Z"
             }
           ]
         }
