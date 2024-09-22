@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\studentintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\studentintegrationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|solutionrelative:petryankin_daniil_kt_31_21.tests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4A89127-558F-4B64-A8C2-981468814348}|petryankin_daniil_kt_31_21.Tests\\petryankin_daniil_kt_31_21.Tests.csproj|c:\\users\\danii\\github\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.tests\\grouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +41,6 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Group.cs",
@@ -59,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Usings.cs",
               "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\Usings.cs",
               "RelativeDocumentMoniker": "petryankin_daniil_kt_31_21.Tests\\Usings.cs",
@@ -72,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentIntegrationTest.cs",
               "DocumentMoniker": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
               "RelativeDocumentMoniker": "petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
               "ToolTip": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
               "RelativeToolTip": "petryankin_daniil_kt_31_21.Tests\\StudentIntegrationTest.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T13:55:00.398Z",
               "EditorCaption": ""

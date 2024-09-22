@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using petryankin_daniil_kt_31_21.Interfaces.StudentInterfaces;
 using petryankin_daniil_kt_31_21.Models;
 using System;
 using System.Collections.Generic;
@@ -22,33 +23,60 @@ namespace petryankin_daniil_kt_31_21.Tests
         [Fact]
         public async Task GetStudentsByGroupName_KT3121_TwoStudents()
         {
-            var groupName = "KT-31-21";
             // Arrange
-            using (var context = new StudentDbContext(_dbContextOptions))
+            var ctx = new StudentDbContext(_dbContextOptions);
+            var studentService = new StudentService(ctx);
+            var groups = new List<Group>
             {
-                // Добавляем студентов в in-memory базу данных
-                context.Students.AddRange(
-                    new Student { StudentId = 1, FirstName = "Ivan", LastName = "Ivanov", GroupId = 1, Group = new Group { GroupId = 1, GroupName = groupName } },
-                    new Student { StudentId = 2, FirstName = "Petr", LastName = "Petrov", GroupId = 1, Group = new Group { GroupId = 1, GroupName = groupName } },
-                    new Student { StudentId = 3, FirstName = "Olga", LastName = "Sidorova", GroupId = 2, Group = new Group { GroupId = 2, GroupName = groupName } }
-                );
-                await context.SaveChangesAsync();
-            }
+                new Group
+                {
+                    GroupName = "KT-31-21"
+                },
+                new Group
+                {
+                    GroupName = "KT-41-21"
+                }
+            };
+            await ctx.Set<Group>().AddRangeAsync(groups);
+
+            var students = new List<Student>
+            {
+                new Student
+                {
+                    FirstName = "Ivan",
+                    LastName = "Hurupatov",
+                    MiddleName = "Alexandrovich",
+                    GroupId = 1,
+                },
+                new Student
+                {
+                    FirstName = "Maria",
+                    LastName = "Egorova",
+                    MiddleName = "Igorovna",
+                    GroupId = 2,
+                },
+                new Student
+                {
+                    FirstName = "Igor",
+                    LastName = "Alexandrov",
+                    MiddleName = "Ivanovich",
+                    GroupId = 1,
+                }
+            };
+            await ctx.Set<Student>().AddRangeAsync(students);
+
+            await ctx.SaveChangesAsync();
 
             // Act
-            List<Student> result;
-            using (var context = new StudentDbContext(_dbContextOptions))
+            var filter = new Filters.StudentFilters.StudentGroupFilter
             {
-                // Выполняем запрос на получение студентов по имени группы
-                result = await context.Students
-                                      .Where(s => s.Group!.GroupName == groupName)
-                                      .ToListAsync();
-            }
+                GroupName = "KT-31-21"
+            };
+            var studentsResult = await studentService.GetStudentsByGroupAsync(filter, CancellationToken.None);
 
             // Assert
-            Assert.Equal(2, result.Count);
-            Assert.Contains(result, s => s.FirstName == "Ivan" && s.LastName == "Ivanov");
-            Assert.Contains(result, s => s.FirstName == "Petr" && s.LastName == "Petrov");
+            Assert.Equal(2, studentsResult.Length);
+
         }
     }
 }
