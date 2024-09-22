@@ -14,6 +14,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.12" />
     <PackageReference Include="Npgsql" Version="8.0.4" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.4" />
@@ -22,9 +23,12 @@
 
   <ItemGroup>
     <Folder Include="Database\Configurations\" />
+    <Folder Include="Filters\StudentFilters\" />
+    <Folder Include="Interfaces\StudentInterfaces\" />
     <Folder Include="Migrations\" />
     <Folder Include="Models\" />
     <Folder Include="Database\Helpers\" />
+    <Folder Include="ServiceExtensions\" />
   </ItemGroup>
 
 </Project>

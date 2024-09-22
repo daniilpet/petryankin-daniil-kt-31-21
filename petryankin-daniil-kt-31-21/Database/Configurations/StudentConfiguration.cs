@@ -17,7 +17,7 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasName($"pk_{TableName}_student_id");
 
             builder.Property(s => s.StudentId)
-                   .HasColumnName("student_id")
+                   .HasColumnName("c_student_id")
                    .HasComment("Идентификатор записи студента")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
@@ -35,12 +35,12 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .IsRequired();
 
             builder.Property(s => s.MiddleName)
-                   .HasColumnName("middle_name")
+                   .HasColumnName("c_student_middle_name")
                    .HasComment("Отчество студента")
                    .HasColumnType($"{ColumnType.String}(50)");
 
             builder.Property(s => s.GroupId)
-                   .HasColumnName("group_id")
+                   .HasColumnName("f_group_id")
                    .HasComment("Группа студента")
                    .HasColumnType(ColumnType.Int);
 

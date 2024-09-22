@@ -14,13 +14,13 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.ToTable(TableName);
 
             builder.Property(g => g.GroupId)
-                   .HasColumnName("group_id")
+                   .HasColumnName("c_group_id")
                    .HasComment("Идентификатор группы")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(g => g.GroupName)
-                   .HasColumnName("group_name")
+                   .HasColumnName("c_group_name")
                    .HasComment("Имя группы")
                    .HasColumnType($"{ColumnType.String}(100)")
                    .IsRequired();
