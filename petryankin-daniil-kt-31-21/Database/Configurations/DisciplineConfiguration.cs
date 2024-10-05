@@ -17,7 +17,7 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                   .HasName($"pk_{TableName}_discipline_id");
 
             builder.Property(d => d.DisciplineId)
-                   .HasColumnName("c_discipline_id")
+                   .HasColumnName("discipline_id")
                    .HasComment("Идентификатор дисциплины")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
@@ -25,13 +25,15 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.Property(d => d.DisciplineName)
                    .HasColumnName("c_discipline_name")
                    .HasComment("Название дисциплины")
-                   .HasColumnType($"{ColumnType.String}(160)")
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(160)
                    .IsRequired();
 
             builder.Property(d => d.DisciplineCode)
                    .HasColumnName("c_discipline_code")
                    .HasComment("Код дисциплины")
-                   .HasColumnType($"{ColumnType.String}(20)")
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(20)
                    .IsRequired();
         }
     }

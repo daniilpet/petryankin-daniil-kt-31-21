@@ -35,7 +35,7 @@ try
         app.UseSwaggerUI();
     }
 
-    app.UseMiddleware<ExceptionHandlerMiddleware>();
+    app.UseMiddleware<petryankin_daniil_kt_31_21.Middlewares.ExceptionHandlerMiddleware>();
 
     app.UseAuthorization();
 

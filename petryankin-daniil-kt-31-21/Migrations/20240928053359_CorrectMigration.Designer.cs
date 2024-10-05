@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using petryankin_daniil_kt_31_21;
@@ -11,9 +12,11 @@ using petryankin_daniil_kt_31_21;
 namespace petryankin_daniil_kt_31_21.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    partial class StudentDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240928053359_CorrectMigration")]
+    partial class CorrectMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,22 +30,20 @@ namespace petryankin_daniil_kt_31_21.Migrations
                     b.Property<int>("DisciplineId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int4")
-                        .HasColumnName("discipline_id")
+                        .HasColumnName("c_discipline_id")
                         .HasComment("Идентификатор дисциплины");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DisciplineId"));
 
                     b.Property<string>("DisciplineCode")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(20)")
                         .HasColumnName("c_discipline_code")
                         .HasComment("Код дисциплины");
 
                     b.Property<string>("DisciplineName")
                         .IsRequired()
-                        .HasMaxLength(160)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(160)")
                         .HasColumnName("c_discipline_name")
                         .HasComment("Название дисциплины");
 
@@ -57,40 +58,35 @@ namespace petryankin_daniil_kt_31_21.Migrations
                     b.Property<int>("GradeId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int4")
-                        .HasColumnName("grade_id")
+                        .HasColumnName("c_grade_id")
                         .HasComment("Идентификатор оценки");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("GradeId"));
 
                     b.Property<int>("DisciplineId")
                         .HasColumnType("int4")
-                        .HasColumnName("f_discipline_id")
+                        .HasColumnName("c_discipline_id")
                         .HasComment("Идентификатор дисциплины");
-
-                    b.Property<int>("DisciplineId1")
-                        .HasColumnType("int4");
 
                     b.Property<DateTime>("GradeDate")
                         .HasColumnType("timestamp")
-                        .HasColumnName("d_grade")
+                        .HasColumnName("c_grade_date")
                         .HasComment("Дата оценки");
 
                     b.Property<int>("GradeValue")
                         .HasColumnType("int4")
-                        .HasColumnName("n_grade_value")
+                        .HasColumnName("c_grade_value")
                         .HasComment("Значение оценки");
 
                     b.Property<int>("StudentId")
                         .HasColumnType("int4")
-                        .HasColumnName("f_student_id")
-                        .HasComment("Идfнтификатор студента");
+                        .HasColumnName("c_student_id")
+                        .HasComment("Идентификатор студента");
 
                     b.HasKey("GradeId")
                         .HasName("pk_cd_grades_grade_id");
 
                     b.HasIndex("DisciplineId");
-
-                    b.HasIndex("DisciplineId1");
 
                     b.HasIndex("StudentId");
 
@@ -102,15 +98,14 @@ namespace petryankin_daniil_kt_31_21.Migrations
                     b.Property<int>("GroupId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int4")
-                        .HasColumnName("group_id")
+                        .HasColumnName("c_group_id")
                         .HasComment("Идентификатор группы");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("GroupId"));
 
                     b.Property<string>("GroupName")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(100)")
                         .HasColumnName("c_group_name")
                         .HasComment("Имя группы");
 
@@ -125,18 +120,15 @@ namespace petryankin_daniil_kt_31_21.Migrations
                     b.Property<int>("PassId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int4")
-                        .HasColumnName("pass_id")
+                        .HasColumnName("c_pass_id")
                         .HasComment("Идентификатор зачета");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("PassId"));
 
                     b.Property<int>("DisciplineId")
                         .HasColumnType("int4")
-                        .HasColumnName("f_discipline_id")
+                        .HasColumnName("c_discipline_id")
                         .HasComment("Идентификатор дисциплины");
-
-                    b.Property<int>("DisciplineId1")
-                        .HasColumnType("int4");
 
                     b.Property<bool>("IsPassed")
                         .HasColumnType("bool")
@@ -145,20 +137,18 @@ namespace petryankin_daniil_kt_31_21.Migrations
 
                     b.Property<DateTime>("PassDate")
                         .HasColumnType("timestamp")
-                        .HasColumnName("d_pass")
+                        .HasColumnName("c_pass_date")
                         .HasComment("Дата зачета");
 
                     b.Property<int>("StudentId")
                         .HasColumnType("int4")
-                        .HasColumnName("f_student_id")
+                        .HasColumnName("c_student_id")
                         .HasComment("Идентификатор студента");
 
                     b.HasKey("PassId")
                         .HasName("pk_cd_passes_pass_id");
 
                     b.HasIndex("DisciplineId");
-
-                    b.HasIndex("DisciplineId1");
 
                     b.HasIndex("StudentId");
 
@@ -170,15 +160,14 @@ namespace petryankin_daniil_kt_31_21.Migrations
                     b.Property<int>("StudentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int4")
-                        .HasColumnName("student_id")
+                        .HasColumnName("c_student_id")
                         .HasComment("Идентификатор записи студента");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("StudentId"));
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("c_student_first_name")
                         .HasComment("Имя студента");
 
@@ -197,14 +186,12 @@ namespace petryankin_daniil_kt_31_21.Migrations
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("c_student_last_name")
                         .HasComment("Фамилия студента");
 
                     b.Property<string>("MiddleName")
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar")
+                        .HasColumnType("varchar(50)")
                         .HasColumnName("c_student_middle_name")
                         .HasComment("Отчество студента");
 
@@ -228,20 +215,12 @@ namespace petryankin_daniil_kt_31_21.Migrations
                         .IsRequired()
                         .HasConstraintName("fk_cd_grades_discipline_id");
 
-                    b.HasOne("petryankin_daniil_kt_31_21.Models.Discipline", "Discipline")
-                        .WithMany()
-                        .HasForeignKey("DisciplineId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("petryankin_daniil_kt_31_21.Models.Student", null)
                         .WithMany()
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("fk_cd_grades_student_id");
-
-                    b.Navigation("Discipline");
                 });
 
             modelBuilder.Entity("petryankin_daniil_kt_31_21.Models.Pass", b =>
@@ -253,20 +232,12 @@ namespace petryankin_daniil_kt_31_21.Migrations
                         .IsRequired()
                         .HasConstraintName("fk_cd_passes_discipline_id");
 
-                    b.HasOne("petryankin_daniil_kt_31_21.Models.Discipline", "Discipline")
-                        .WithMany()
-                        .HasForeignKey("DisciplineId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("petryankin_daniil_kt_31_21.Models.Student", null)
                         .WithMany()
                         .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("fk_cd_passes_student_id");
-
-                    b.Navigation("Discipline");
                 });
 
             modelBuilder.Entity("petryankin_daniil_kt_31_21.Models.Student", b =>

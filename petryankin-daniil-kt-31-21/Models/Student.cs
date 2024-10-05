@@ -23,6 +23,6 @@ namespace petryankin_daniil_kt_31_21.Models
         public bool IsDeleted { get; set; }
 
         // Связь с объектом группы
-        public Group? Group { get; set; }
+        public virtual Group? Group { get; set; }
     }
 }

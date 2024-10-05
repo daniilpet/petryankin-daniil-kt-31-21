@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+H0HiEll7yE=",
+  "dgSpecHash": "cD5sc96AgUY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Danii\\GitHub\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21\\petryankin-daniil-kt-31-21.csproj",
   "expectedPackageFiles": [
@@ -145,5 +145,12 @@
     "C:\\Users\\Danii\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
     "C:\\Users\\Danii\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

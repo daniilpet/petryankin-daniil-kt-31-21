@@ -40,13 +40,14 @@ namespace petryankin_daniil_kt_31_21.Interfaces.StudentInterfaces
             return students;
         }
 
-        public Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
+        public async Task<Student[]> GetStudentsByGroupAsync(StudentGroupFilter filter, CancellationToken cancellationToken = default)
         {
-            var students = _dbContext.Set<Student>()
+            var students = await _dbContext.Set<Student>()
                 .Where(w => w.Group!.GroupName == filter.GroupName)
                 .ToArrayAsync(cancellationToken);
 
             return students;
         }
+
     }
 }

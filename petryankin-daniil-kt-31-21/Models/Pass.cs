@@ -9,5 +9,6 @@ namespace petryankin_daniil_kt_31_21.Models
         public int DisciplineId { get; set; }
         public DateTime PassDate { get; set; }
         public bool IsPassed { get; set; }
+        public required Discipline Discipline { get; set; }
     }
 }

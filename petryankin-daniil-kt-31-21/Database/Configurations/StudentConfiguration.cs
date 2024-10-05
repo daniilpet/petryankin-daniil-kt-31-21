@@ -17,7 +17,7 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasName($"pk_{TableName}_student_id");
 
             builder.Property(s => s.StudentId)
-                   .HasColumnName("c_student_id")
+                   .HasColumnName("student_id")
                    .HasComment("Идентификатор записи студента")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
@@ -25,22 +25,25 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.Property(s => s.FirstName)
                    .HasColumnName("c_student_first_name")
                    .HasComment("Имя студента")
-                   .HasColumnType($"{ColumnType.String}(50)")
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(50)
                    .IsRequired();
 
             builder.Property(s => s.LastName)
                    .HasColumnName("c_student_last_name")
                    .HasComment("Фамилия студента")
-                   .HasColumnType($"{ColumnType.String}(50)")
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(50)
                    .IsRequired();
 
             builder.Property(s => s.MiddleName)
                    .HasColumnName("c_student_middle_name")
                    .HasComment("Отчество студента")
-                   .HasColumnType($"{ColumnType.String}(50)");
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(50);
 
             builder.Property(s => s.IsDeleted)
-                   .HasColumnName("c_is_deleted")
+                   .HasColumnName("b_deleted")
                    .HasComment("Признак удаления")
                    .HasColumnType(ColumnType.Bool);
 
@@ -49,10 +52,20 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasComment("Группа студента")
                    .HasColumnType(ColumnType.Int);
 
+            // Отношения
+            builder.HasOne<Group>(x=>x.Group)
+                   .WithMany()
+                   .HasForeignKey(s => s.GroupId)
+                   .HasConstraintName($"fk_{TableName}_group_id")
+                   .OnDelete(DeleteBehavior.Restrict);
+
             // Индексы
             builder.ToTable(TableName)
                     .HasIndex(s => s.GroupId)
                     .HasDatabaseName($"idx_{TableName}_fk_f_group_id");
+            
+            // "Жадная" загрузка
+            builder.Navigation(s => s.Group).AutoInclude();
         }
     }
 }

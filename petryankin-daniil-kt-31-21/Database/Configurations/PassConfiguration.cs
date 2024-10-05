@@ -17,34 +17,50 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasName($"pk_{TableName}_pass_id");
 
             builder.Property(p => p.PassId)
-                   .HasColumnName("c_pass_id")
+                   .HasColumnName("pass_id")
                    .HasComment("Идентификатор зачета")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(p => p.StudentId)
-                   .HasColumnName("c_student_id")
+                   .HasColumnName("f_student_id")
                    .HasComment("Идентификатор студента")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(p => p.DisciplineId)
-                   .HasColumnName("c_discipline_id")
+                   .HasColumnName("f_discipline_id")
                    .HasComment("Идентификатор дисциплины")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(p => p.PassDate)
-                   .HasColumnName("c_pass_date")
+                   .HasColumnName("d_pass")
                    .HasComment("Дата зачета")
                    .HasColumnType(ColumnType.Date)
                    .IsRequired();
 
             builder.Property(p => p.IsPassed)
-                   .HasColumnName("c_is_passed")
+                   .HasColumnName("b_passed")
                    .HasComment("Результат зачета")
                    .HasColumnType(ColumnType.Bool)
                    .IsRequired();
+
+            // Отношения
+            builder.HasOne<Student>()
+                .WithMany()
+                .HasForeignKey(p => p.StudentId)
+                .HasConstraintName($"fk_{TableName}_student_id")
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne<Discipline>()
+                .WithMany()
+                .HasForeignKey(p => p.DisciplineId)
+                .HasConstraintName($"fk_{TableName}_discipline_id")
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // "Жадная" загрузка дисциплины
+            builder.Navigation(s => s.Discipline).AutoInclude();
         }
     }
 }

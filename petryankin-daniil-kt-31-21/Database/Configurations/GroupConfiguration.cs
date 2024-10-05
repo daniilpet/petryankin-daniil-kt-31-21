@@ -14,7 +14,7 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.ToTable(TableName);
 
             builder.Property(g => g.GroupId)
-                   .HasColumnName("c_group_id")
+                   .HasColumnName("group_id")
                    .HasComment("Идентификатор группы")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
@@ -22,7 +22,8 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
             builder.Property(g => g.GroupName)
                    .HasColumnName("c_group_name")
                    .HasComment("Имя группы")
-                   .HasColumnType($"{ColumnType.String}(100)")
+                   .HasColumnType(ColumnType.String)
+                   .HasMaxLength(20)
                    .IsRequired();
 
             builder.HasKey(g => g.GroupId)

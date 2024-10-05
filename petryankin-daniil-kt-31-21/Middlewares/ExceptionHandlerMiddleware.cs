@@ -3,7 +3,7 @@ using petryankin_daniil_kt_31_21.Models;
 using petryankin_daniil_kt_31_21.Filters.StudentFilters;
 using System.Net;
 
-namespace petryankin_daniil_kt_31_21.Migrations
+namespace petryankin_daniil_kt_31_21.Middlewares
 {
     public class ExceptionHandlerMiddleware
     {

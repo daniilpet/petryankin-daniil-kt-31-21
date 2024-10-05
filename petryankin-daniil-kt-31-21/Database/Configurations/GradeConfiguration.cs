@@ -17,34 +17,50 @@ namespace petryankin_daniil_kt_31_21.Database.Configurations
                    .HasName($"pk_{TableName}_grade_id");
 
             builder.Property(g => g.GradeId)
-                   .HasColumnName("c_grade_id")
+                   .HasColumnName("grade_id")
                    .HasComment("Идентификатор оценки")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(g => g.StudentId)
-                   .HasColumnName("c_student_id")
-                   .HasComment("Идентификатор студента")
+                   .HasColumnName("f_student_id")
+                   .HasComment("Идfнтификатор студента")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(g => g.DisciplineId)
-                   .HasColumnName("c_discipline_id")
+                   .HasColumnName("f_discipline_id")
                    .HasComment("Идентификатор дисциплины")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
 
             builder.Property(g => g.GradeDate)
-                   .HasColumnName("c_grade_date")
+                   .HasColumnName("d_grade")
                    .HasComment("Дата оценки")
                    .HasColumnType(ColumnType.Date)
                    .IsRequired();
 
             builder.Property(g => g.GradeValue)
-                   .HasColumnName("c_grade_value")
+                   .HasColumnName("n_grade_value")
                    .HasComment("Значение оценки")
                    .HasColumnType(ColumnType.Int)
                    .IsRequired();
+
+            // Отношения
+            builder.HasOne<Student>()
+                   .WithMany()
+                   .HasForeignKey(g => g.StudentId)
+                   .HasConstraintName($"fk_{TableName}_student_id")
+                   .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne<Discipline>()
+                   .WithMany()
+                   .HasForeignKey(g => g.DisciplineId)
+                   .HasConstraintName($"fk_{TableName}_discipline_id")
+                   .OnDelete(DeleteBehavior.Cascade);
+
+            // "Жадная" загрузка дисциплины
+            builder.Navigation(s => s.Discipline).AutoInclude();
         }
     }
 }
